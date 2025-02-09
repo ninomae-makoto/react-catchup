@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import modules from "./Textfield.module.css";
 
 /** コンポーネント利用時のプロパティ */
