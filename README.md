@@ -135,6 +135,8 @@ CSS Modulesは、CSSファイルをモジュール化して、クラス名の衝
 
 # その他
 
+動作確認用
+https://storage.googleapis.com/react-catchup/dist/index.html
 
 # 参考
 
