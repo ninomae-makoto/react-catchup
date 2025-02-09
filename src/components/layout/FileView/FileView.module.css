@@ -1,0 +1,39 @@
+.fileview {
+    margin: 0 20px;
+}
+
+/* 全体のスタイル */
+ul.fileinfo {
+    list-style-type: none; /* デフォルトのリストマーカーを削除 */
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+/* ファイルリストの外枠 */
+ul.fileinfo > li {
+    margin-top: 1rem; /* 各ファイル間の間隔を空ける */
+    border: 1px solid #ddd; /* 外枠を追加 */
+    border-radius: 4px; /* 角を丸くする */
+    padding: 0.5rem;
+    background-color: #f9f9f9; /* 背景色を薄いグレーに */
+}
+
+/* ファイル情報のスタイル */
+ul.fileinfo > li > ul {
+    list-style-type: none; /* サブリストのマーカーを削除 */
+    padding: 0.5rem 0 0.5rem 1rem; /* サブリストの余白を調整 */
+    border-left: 2px solid #ccc; /* 階層を視覚化するための線 */
+    margin: 0;
+}
+
+ul.fileinfo > li > ul > li {
+    margin: 0.25rem 0; /* 各ファイル情報の間隔 */
+    color: #333; /* テキストカラー */
+}
+
+/* ヘッダー風に強調（必要に応じて適用） */
+ul.fileinfo > li > ul > li:first-child {
+    font-weight: bold; /* ファイル名を強調 */
+    color: #007acc; /* 強調色を設定 */
+}

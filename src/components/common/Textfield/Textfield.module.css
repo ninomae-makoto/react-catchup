@@ -1,0 +1,27 @@
+/*
+NOTE
+各コンポーネントは、CSS Modules を使用してスタイリングされています。
+マージン、パディングなどサイズに関係するものはコンポーネントに直接記述せずにコンポーネントを利用する側で指定することを想定しています。
+*/
+
+.textfield {
+    width: 100%;
+    text-align: left;
+}
+
+.textfield input,
+.textfield textarea {
+    width: 100%;
+    padding: 0.5rem;
+    box-sizing: border-box;
+}
+
+.required {
+    color: red;
+}
+
+.error {
+    color: red;
+    font-size: 0.8rem;
+    margin-top: 0.2rem;
+}

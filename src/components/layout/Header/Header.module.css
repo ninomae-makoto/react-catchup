@@ -1,0 +1,9 @@
+.divider {
+    border: none;
+    /* background: linear-gradient(to right, transparent, #999, transparent); */
+    background: radial-gradient(circle, #666 50%, transparent 100%);
+    background-size: 100% 1px; /* 背景の高さをボーダーの高さと一致させる */
+    background-repeat: no-repeat; /* 背景を繰り返さない */
+    padding: 10px 20px;
+    /* width: 120%; */
+}
